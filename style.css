@@ -180,6 +180,30 @@ header img{
   gap: 1rem;
   width: 100%;
 }
+
+
 .burger-menu{
-  display: none;
+  /* display: none; */
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+@media (max-width: 44rem) {
+  .hide{
+    display: none;
+  }
+  .burger-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    min-height: 2.5rem;
+    min-width: 2.5rem;
+    pointer-events: all;
+  }
 }
